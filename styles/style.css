@@ -10,6 +10,9 @@
 }
 
 /* Common Styles  */
+body {
+    margin: 0;;
+}
 * {
     box-sizing: border-box;
 }
@@ -61,6 +64,13 @@
 .dark-7 {
     color: #F3F3F3;
 }
+.orange {
+    color: #FF900E;
+}
+header {
+    background-color: #FFF4E7;
+}
+
 /* Navbar */
 .navbar {
     display: flex;
@@ -84,4 +94,34 @@
 }
 .nav-links a:visited {
     color: #424242;
+}
+
+/* Hero section  */
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-title > * {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.hero-title > h1 {
+    padding: 0 auto;
+}
+.hero-title > p {
+    padding: 0 20%;
+}
+.hero-title > button {
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+}
+.hero-title > img {
+    width: 80%;
 }
