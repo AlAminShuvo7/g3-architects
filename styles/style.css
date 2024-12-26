@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Common Styles  */
+* {
+    box-sizing: border-box;
+}
+.f-16 {
+    font-size: 16px;
+}
+.f-18 {
+    font-size: 18px;
+}
+.f-20 {
+    font-size: 20px;
+}
+.f-25 {
+    font-size: 25px;
+}
+.f-45 {
+    font-size: 45px;
+}
+.f-64 {
+    font-size: 64px;
+}
+.medium {
+    font-weight: 500;
+}
+.semibold {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+.dark-1 {
+    color: #131313;
+}
+.dark-2 {
+    color: #424242;
+}
+.dark-3 {
+    color: #727272;
+}
+.dark-4 {
+    color: #A1A1A1;
+}
+.dark-5 {
+    color: #D0D0D0;
+}
+.dark-6 {
+    color: #E7E7E7;
+}
+.dark-7 {
+    color: #F3F3F3;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+}
+.brand {
+    width: 40%;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+}
+.nav-links a:visited {
+    color: #424242;
+}
